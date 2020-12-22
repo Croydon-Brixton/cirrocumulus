@@ -1,8 +1,6 @@
 #!/bin/bash
+echo Your args passed to the container are: "$@"
 
 NET_WIDTH=$1
 
-python train_model.py net_width=NET_WIDTH
-
-
-
+python train_model.py $NET_WIDTH
