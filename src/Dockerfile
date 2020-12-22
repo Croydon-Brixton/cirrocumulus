@@ -10,7 +10,7 @@ RUN pip install --upgrade pip && \
 RUN apt-get update && apt-get install -y git
 
 RUN git clone https://github.com/wehrley/Kaggle-Digit-Recognizer.git
-RUN git clone https://github.com/meissnereric/cirrocumulus.git
+RUN git clone https://github.com/Croydon-Brixton/cirrocumulus.git
 
 RUN pwd
 RUN ls
