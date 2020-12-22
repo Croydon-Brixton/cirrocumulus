@@ -7,6 +7,8 @@ RUN pip install --upgrade pip && \
     pip install boto3 && \
     pip install boto 
 
+RUN apt-get update && apt-get install -y git
+
 RUN git clone https://github.com/wehrley/Kaggle-Digit-Recognizer.git
 RUN git clone https://github.com/meissnereric/cirrocumulus.git
 
