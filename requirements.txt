@@ -1,0 +1,5 @@
+boto3
+jupyter
+scikit-learn
+numpy
+matplotlib
